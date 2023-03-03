@@ -1,0 +1,19 @@
+{
+  "name": "hietrack-server",
+  "version": "0.0.1",
+  "description": "A server for hietrack, a free-and-open-source issue tracker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninthapproach/hietrack-server.git"
+  },
+  "author": "Ninth Approach LLC <team@ninthapproach.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ninthapproach/hietrack-server/issues"
+  },
+  "homepage": "https://github.com/ninthapproach/hietrack-server#readme"
+}
