@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ninthapproach/hietrack-server/issues"
   },
-  "homepage": "https://github.com/ninthapproach/hietrack-server#readme"
+  "homepage": "https://github.com/ninthapproach/hietrack-server#readme",
+  "devDependencies": {
+    "typescript": "4.9.5"
+  }
 }
