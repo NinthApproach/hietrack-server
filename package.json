@@ -9,7 +9,8 @@
     "clean": "rm -rf dist",
     "dev": "npm run build && node dist/main.js",
     "lint:check": "npx eslint --ext .ts src/**",
-    "format:check": "npx prettier --check src"
+    "format:check": "npx prettier --check src",
+    "validate": "npm run lint:check && npm run format:check && npm run build"
   },
   "repository": {
     "type": "git",
