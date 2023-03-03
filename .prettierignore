@@ -2,3 +2,6 @@
 /**/*
 !/src
 !/src/**/*
+!/.eslintrc.json
+!/package.json
+!/tsconfig.json

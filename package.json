@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "clean": "rm -rf dist",
-    "dev": "npm run build && node dist/main.js"
+    "dev": "npm run build && node dist/main.js",
+    "lint:check": "npx eslint --ext .ts src/**"
   },
   "repository": {
     "type": "git",
