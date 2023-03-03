@@ -4,13 +4,13 @@
   "description": "A server for hietrack, a free-and-open-source issue tracker.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "clean": "rm -rf dist",
     "dev": "npm run build && node dist/main.js",
     "lint:check": "npx eslint --ext .ts src/**",
     "format:check": "npx prettier --check src",
-    "validate": "npm run lint:check && npm run format:check && npm run build"
+    "test": "jest",
+    "validate": "npm run lint:check && npm run format:check && npm run build && npm run test"
   },
   "repository": {
     "type": "git",
@@ -29,10 +29,12 @@
   },
   "homepage": "https://github.com/ninthapproach/hietrack-server#readme",
   "devDependencies": {
+    "@types/jest": "29.4.0",
     "@typescript-eslint/eslint-plugin": "5.54.0",
     "@typescript-eslint/parser": "5.54.0",
     "eslint": "8.35.0",
     "eslint-config-prettier": "8.6.0",
+    "jest": "29.4.3",
     "prettier": "2.8.4",
     "typescript": "4.9.5"
   }
