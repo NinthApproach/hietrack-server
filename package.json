@@ -8,7 +8,8 @@
     "build": "tsc",
     "clean": "rm -rf dist",
     "dev": "npm run build && node dist/main.js",
-    "lint:check": "npx eslint --ext .ts src/**"
+    "lint:check": "npx eslint --ext .ts src/**",
+    "format:check": "npx prettier --check src"
   },
   "repository": {
     "type": "git",
